@@ -6,6 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi! I am Jie Wang (王颉), a junior undergraduate student majoring in Computer Science and Technology at the School of Computer Science & Fan-Gongxiu Honors College, Beijing University of Technology (BJUT).
+I am currently advised by Associate Researcher Jinduo Liu, focusing on multimodal learning and computer vision.
+In the summer of 2025, I joined North Carolina State University (NCSU) as a Research Assistant under Dr. Muhammad Shahzad, where I worked on WiFi-based gesture recognition using attention-enhanced CNN-LSTM networks (our work won 1st Place in the Poster Symposium, 1/50).
 
 I am a third year undergraduate student from [College of Computer Science](https://cs.bjut.edu.cn) & [Fan Gongxiu Honors College](https://fgx-hc.bjut.edu.cn), [Beijing University of Technology](https://www.bjut.edu.cn). My research interest includes reinforcement learning, computer vision especially visual-based tactile sensor, and artificial intelligence.
 

@@ -3,16 +3,22 @@ permalink: /
 title: "About me"
 author_profile: true
 ---
-Hi! I am Jie Wang (王颉), a junior undergraduate student majoring in Computer Science and Technology at the School of Computer Science & Fan-Gongxiu Honors College, Beijing University of Technology (BJUT).
-I am currently advised by Associate Researcher Jinduo Liu, focusing on multimodal learning and computer vision.
-In the summer of 2025, I joined North Carolina State University (NCSU) as a Research Assistant under Dr. Muhammad Shahzad, where I worked on WiFi-based gesture recognition using attention-enhanced CNN-LSTM networks (our work won 1st Place in the Poster Symposium, 1/50).
+<style>
+p, li {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+</style>
 
-I am a third year undergraduate student from [College of Computer Science](https://cs.bjut.edu.cn) & [Fan Gongxiu Honors College](https://fgx-hc.bjut.edu.cn), [Beijing University of Technology](https://www.bjut.edu.cn). My research interest includes reinforcement learning, computer vision especially visual-based tactile sensor, and artificial intelligence.
+**Hi! I am Jie Wang (王颉)**, a junior undergraduate student majoring in **Computer Science and Technology** at the [College of Computer Science](https://cs.bjut.edu.cn) & [Fan-Gongxiu Honors College](https://fgx-hc.bjut.edu.cn), [Beijing University of Technology (BJUT)](https://www.bjut.edu.cn).  
 
-I am very fortune to be advised by [Prof. Jinduo Liu](https://duo67.github.io) from [Beijing Institute of Artificial Intelligence](https://biai.bjut.edu.cn), Beijing University pof Technology.
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am currently advised by [**Associate Researcher Jinduo Liu**](https://duo67.github.io) from the [Beijing Institute of Artificial Intelligence](https://biai.bjut.edu.cn), focusing on **multimodal learning** and **computer vision**, particularly **vision-based tactile sensing**.  
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+In the summer of **2025**, I joined **North Carolina State University (NCSU)** as a **Research Assistant** under **Dr. Muhammad Shahzad**, where I worked on **WiFi-based gesture recognition** using attention-enhanced CNN-LSTM networks — our work won **1st Place** in the **Poster Symposium (1/50)**.  
+
+My broader research interests include **reinforcement learning**, **multimodal perception**, and **artificial intelligence for intelligent systems**.
+
 
 A data-driven personal website
 ======

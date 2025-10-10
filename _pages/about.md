@@ -2,9 +2,6 @@
 permalink: /
 title: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 Hi! I am Jie Wang (王颉), a junior undergraduate student majoring in Computer Science and Technology at the School of Computer Science & Fan-Gongxiu Honors College, Beijing University of Technology (BJUT).
 I am currently advised by Associate Researcher Jinduo Liu, focusing on multimodal learning and computer vision.

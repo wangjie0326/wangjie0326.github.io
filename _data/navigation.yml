@@ -9,13 +9,8 @@
 
 main:
   - title: "Experience"
-    url: /experience/
-
-  - title: "My Life"
-    url: /my life/    
+    url: /experience/   
     
-  - title: "CV"
-    url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/

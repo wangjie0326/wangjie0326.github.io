@@ -23,7 +23,7 @@ repository               : "wangjie0326.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :"JIEWANG.jpg"
+  avatar           : "JIEWANG.jpg"
   name             : "Jie Wang (Jerry)"
   pronouns         : # example: "he/him"  
   bio              : "Expand my comfort zone, not to jump out of that."

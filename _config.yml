@@ -13,20 +13,20 @@ title                    : "Jie Wang's Page"
 title_separator          : "-"
 name                     : &name "Jie Wang"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://wangjie0326.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "wangjie0326.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/bio-graph.jpg"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  avatar           : "wangjiep326.github.io/images/bio-graph.jpg"
+  name             : "Jie Wang (Jerry)"
+  pronouns         : # example: "he/him"  
+  bio              : "Enlarge my comfort-zone, not to jump out of that"
   location         : "Beijing / Washington, D.C."
   employer         : "Beijing University of Technology"
   uri              : # URL
@@ -80,13 +80,9 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+publication_category:    
   conferences:
-    title: 'Conference Papers'
+    title: 'Vision-based Tactile Sensor Image Recognition Methods via Multimodal Learning'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

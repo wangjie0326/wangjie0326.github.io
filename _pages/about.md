@@ -20,7 +20,7 @@ In the summer of **2025**, I joined **North Carolina State University (NCSU)** a
 
 My broader research interests include **reinforcement learning**, **multimodal perception**, and **artificial intelligence for intelligent systems**.  
 
-For future, I will stay in Washington D.C. in Jan-Feb 2026 and Canada(probly Mitacs) in July-Sep 2026, then can start my keystone(probly following future Ph.D professor) during my final year. People would describe me calm, easy-going and vigorous, always work work work...
+For future, I will stay in Washington D.C. in Jan-Feb 2026 and Canada(prolly Mitacs) in July-Sep 2026, then can start my keystone(prolly following future Ph.D professor) during my final year. People would describe me calm, easy-going, vigorous,and always work work work...
 
 ---
 
@@ -52,7 +52,7 @@ My research interests are still evolving, but currently focus on:
 
 **Vision-based Tactile Sensor Image Recognition via Multimodal Learning**  
 *Dec 2024 – Jun 2025 | BJUT | Supervisor: Prof. Jinduo Liu*  
-Developed a multimodal framework (*VidTouch*) for tactile sensor image recognition using dynamic exploration sequences. Built a VBTS dataset and proposed a lightweight MLP-based fusion module, achieving a **52% accuracy improvement** over baseline methods.  
+Developed a multimodal framework (*VidTouch*) for tactile sensor image recognition using dynamic exploration sequences. Built a VBTS dataset and proposed a lightweight MLP-based fusion module, achieving a **52% accuracy improvement** over baseline methods.  (Paper has been submitted)
 
 **Autonomous Driving Decision-Making based on Game Theory**  
 *Mar 2024 – Feb 2025 | BJUT | Supervisor: Dr. Heng Deng*  

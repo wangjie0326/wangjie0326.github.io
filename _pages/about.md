@@ -14,7 +14,7 @@ p, li {
 
 **Hi! I am Jie Wang (王颉)**, a senior undergraduate student majoring in **Computer Science and Technology** at the [College of Computer Science](https://cs.bjut.edu.cn) & [Fan-Gongxiu Honors College](https://fgx-hc.bjut.edu.cn), [Beijing University of Technology (BJUT)](https://www.bjut.edu.cn).  
 
-I am currently advised by [**Associate Researcher Jinduo Liu**](https://duo67.github.io) from the [Beijing Institute of Artificial Intelligence](https://biai.bjut.edu.cn), focusing on **multimodal learning**, **computer vision** and **reinforcement learning**, particularly **vision-based tactile sensing** and **medical image analysis**.  
+I am currently advised by [**Associate Researcher Jinduo Liu**](https://duo67.github.io) from the [Beijing Institute of Artificial Intelligence](https://biai.bjut.edu.cn), focusing on **multimodal learning**, **computer vision** and **reinforcement learning**, in particular **vision-based tactile sensing** and **medical image analysis**.  
 
 In the summer of **2025**, I joined **North Carolina State University (NCSU)** as a **Research Assistant** under **Dr. Muhammad Shahzad**, where I worked on **WiFi-based gesture recognition** using attention-enhanced CNN-LSTM networks — our work won **1st Place** in the **Poster Symposium (1/50)**.  
 

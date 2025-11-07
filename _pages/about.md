@@ -21,6 +21,7 @@ In the summer of **2025**, I joined **North Carolina State University (NCSU)** a
 My broader research interests include **reinforcement learning**, **multimodal perception**, and **artificial intelligence for intelligent systems**.  
 
 For future, I will stay in Washington D.C. in Jan-Feb 2026 and Canada(probly Mitacs) in July-Sep 2026, then can start my keystone(probly following future Ph.D professor) during my final year. People would describe me calm, easy-going and vigorous, always work work work...
+
 ---
 
 ### 🎓 Education

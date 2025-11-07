@@ -6,7 +6,7 @@ author_profile: true
 
 <style>
 p, li {
-  font-family: Georgia, serif;
+  font-family: Georgia,Times Roman, serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -20,13 +20,13 @@ In the summer of **2025**, I joined **North Carolina State University (NCSU)** a
 
 My broader research interests include **reinforcement learning**, **multimodal perception**, and **artificial intelligence for intelligent systems**.  
 
-For future, I will stay in Washington D.C. in Jan-Feb 2026 and Canada(prolly Mitacs) in July-Sep 2026, then can start my keystone(prolly following future Ph.D professor) during my final year. People would describe me calm, easy-going, vigorous,and always work work work...
+For the future, I will stay in Washington D.C. in Jan-Feb 2026 and Canada(prolly Mitacs) in July-Sep 2026, then can start my keystone(prolly following future Ph.D professor) during my final year. People would describe me calm, easy-going, vigorous,and always work work work...
 
 ---
 
 ### 🎓 Education
 
-**B.Eng. in Computer Science and Technology**, *Beijing University of Technology*, Beijing, China  
+**B.Eng. in Computer Science and Technology**, *Beijing University of Technology*, Beijing
 *Expected Graduation:* June 2027  
 **GPA:** 4.00/4.00 (Rank 1/60) | **WAM:** 95.85/100 (Rank 1/60)  
 **Honors College:** Outstanding 40 out of 3000+  

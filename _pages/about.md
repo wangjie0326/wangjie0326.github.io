@@ -67,7 +67,7 @@ Developing a **Double Deep Q-Learning-based reasoning method** for interactive r
 ### 🏆 Awards & Honors
 
 - 📜 **XIAOMI Scholarship**, XIAOMI Scholarship, 2025
-- 📜 **Dean's List**, Fan Gongxiu Scholarship, 2025
+- 📜 **Dean's Honors List**, Fan Gongxiu Honors Scholarship(Only 2 of all students), 2025
 - 🥇 **1st Place**, U.S. GEARS Research Program, 2025  
 - 🧠 **Outstanding Student Honor**, Beijing University of Technology (Top 1), 2024  
 - 🎓 **Study Excellence Scholarship**, 2024 & 2025  

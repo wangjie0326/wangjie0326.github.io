@@ -29,12 +29,12 @@ In the summer of 2025, I visited **North Carolina State University (NCSU)** as a
 **Beijing University of Technology (BJUT)** | *Sept 2023 – June 2027 (Expected)* 
 *Bachelor of Engineering in Computer Science and Technology* 
 * **Honors**: Fan-Gongxiu Honors College (Outstanding 40 selected from 3000+ Students).
-* **Academic Standing**: **GPA: 4.00 / 4.00** | **Rank: 1 / 60** | **WAM: 95.94 / 100**.
+* **Academic Standing**: **GPA: 4.00 / 4.00** , **Rank: 1 / 60** , **WAM: 95.94 / 100**.
 * **Key Coursework**: Adv. Math (**100**), University Physics (**100**), Python (**99**), Data Structures (**98**), Pattern Recognition (**97**).
 
-**North Carolina State University (NCSU)** | [cite_start]*July 2025 – Aug 2025* [cite: 12]
-[cite_start]*Visiting Research Assistant (Supervised by Dr. Muhammad Shahzad)* [cite: 11]
-* [cite_start]**Achievement**: Developed *AttentiveCSI*; awarded **First Place** in Poster Symposium (1/50)[cite: 13].
+**North Carolina State University (NCSU)** | *July 2025 – Aug 2025* 
+*Visiting Research Assistant (Supervised by Dr. Muhammad Shahzad)* 
+* **Achievement**: Developed *AttentiveCSI*; awarded **First Place** in Poster Symposium (1/50).
 
 ---
 

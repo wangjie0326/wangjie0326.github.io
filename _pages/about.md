@@ -26,7 +26,7 @@ In the summer of 2025, I visited **North Carolina State University (NCSU)** as a
 
 ## 🎓 Education
 
-* **Beijing University of Technology (BJUT)** | Beijing, China
+**Beijing University of Technology (BJUT)** | Beijing, China
     * B.Eng. in Computer Science and Technology | *Expected June 2027*
     * **GPA: 4.00 / 4.00 (Rank: 1/60)** | **WAM: 95.94 / 100**
     * **Honors:** Fan-Gongxiu Honors College (Top 40 out of 3000+ students)

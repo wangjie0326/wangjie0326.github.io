@@ -5,32 +5,299 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.publications-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pub-card {
+  background: white;
+  border-radius: 4px;
+  padding: 35px;
+  margin: 30px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  border: 1px solid #e1e4e8;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.pub-card:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pub-image-container {
+  flex-shrink: 0;
+  width: 350px;
+}
+
+.pub-image {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e1e4e8;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f8fa;
+  border: 2px dashed #d1d5da;
+  border-radius: 4px;
+  color: #6a737d;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #24292e;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  color: #586069;
+  font-size: 15px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.pub-authors .me {
+  font-weight: 600;
+  color: #24292e;
+}
+
+.pub-meta {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.pub-venue {
+  display: inline-block;
+  background: #24292e;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.pub-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status-review {
+  background: #fff5b1;
+  color: #735c0f;
+}
+
+.status-accepted {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-published {
+  background: #cce5ff;
+  color: #004085;
+}
+
+.pub-description {
+  color: #586069;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 15px 0 0 0;
+}
+
+.pub-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pub-link {
+  display: inline-block;
+  background: #f6f8fa;
+  color: #24292e;
+  padding: 6px 16px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #d1d5da;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.pub-link:hover {
+  background: #0366d6;
+  border-color: #0366d6;
+  color: white;
+  text-decoration: none;
+}
+
+.section-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #24292e;
+  margin: 50px 0 30px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.section-header:first-child {
+  margin-top: 20px;
+}
+
+/* Patent card - no image layout */
+.pub-card.patent-card {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pub-card {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .pub-image-container {
+    width: 100%;
+  }
+
+  .image-placeholder {
+    height: 180px;
+  }
+}
+</style>
+
+<div class="publications-container">
+
+<div class="section-header">Preprints & Under Review</div>
+
+<!-- BEACON -->
+<div class="pub-card">
+  <div class="pub-image-container">
+    <img src="/ijcai.png" alt="BEACON Pipeline" class="pub-image">
+  </div>
+
+  <div class="pub-content">
+    <div class="pub-title">BEACON: Budget-Efficient Discovery of Policy Violations in LLMs via Cognitive-Guided Monte Carlo Tree Search</div>
+    <div class="pub-authors"><span class="me">Jie Wang</span>, et al.</div>
+
+    <div class="pub-meta">
+      <span class="pub-venue">IJCAI 2026</span>
+      <span class="pub-status status-review">Under Review (Phase 2, All Positive Reviews)</span>
+    </div>
+
+    <div class="pub-description">
+      We reframe LLM safety evaluation as budget-constrained failure discovery. Our Cognitive-Guided MCTS achieves 85.5–100% ASR across 6 frontier LLMs, discovering failures 3.7× faster than the strongest baseline.
+    </div>
+
+    <div class="pub-links">
+      <!-- <a href="#" class="pub-link">arXiv</a> -->
+      <!-- <a href="#" class="pub-link">Code</a> -->
+      <!-- <a href="#" class="pub-link">PDF</a> -->
+    </div>
+  </div>
+</div>
+
+<!-- EviGuard -->
+<div class="pub-card">
+  <div class="pub-image-container">
+    <img src="/eviguard.png" alt="EviGuard Pipeline" class="pub-image">
+  </div>
+
+  <div class="pub-content">
+    <div class="pub-title">EviGuard: Evidence-Guided Connector Intervention for Cross-Modal Safety Unlearning in Multimodal LLMs</div>
+    <div class="pub-authors"><span class="me">Jie Wang</span>, et al.</div>
+
+    <div class="pub-meta">
+      <span class="pub-venue">ACM MM 2026</span>
+      <span class="pub-status status-review">Under Review</span>
+    </div>
+
+    <div class="pub-description">
+      We identify that cross-modal risk concentrates in a low-rank subspace at the visual-language connector. EviGuard reduces over-refusal rate from 30.3% to 22.3%, achieving 9.8% ASR and 68.0% Safe & Effective rate on OOD benchmarks.
+    </div>
+
+    <div class="pub-links">
+      <!-- <a href="#" class="pub-link">arXiv</a> -->
+      <!-- <a href="#" class="pub-link">Code</a> -->
+      <!-- <a href="#" class="pub-link">PDF</a> -->
+    </div>
+  </div>
+</div>
+
+<!-- VidTouch -->
+<div class="pub-card">
+  <div class="pub-image-container">
+    <div class="image-placeholder">
+      Pipeline Image<br>
+      Upload to: /vidtouch.png
+    </div>
+  </div>
+
+  <div class="pub-content">
+    <div class="pub-title">VidTouch: A Multimodal Benchmark Dataset for Dynamic Visuo-Tactile Fabric Recognition</div>
+    <div class="pub-authors"><span class="me">Jie Wang</span>, et al.</div>
+
+    <div class="pub-meta">
+      <span class="pub-venue">ACM MM 2026</span>
+      <span class="pub-status status-review">Dataset Track, Under Review</span>
+    </div>
+
+    <div class="pub-description">
+      The first dynamic multimodal benchmark for fabric recognition with 145 categories. Our X3D + EfficientNet + MLP fusion achieves 98.6% in-category accuracy, revealing zero-shot generalization as an open challenge.
+    </div>
+
+    <div class="pub-links">
+      <!-- <a href="#" class="pub-link">arXiv</a> -->
+      <!-- <a href="#" class="pub-link">Code</a> -->
+      <!-- <a href="#" class="pub-link">Dataset</a> -->
+    </div>
+  </div>
+</div>
+
+<div class="section-header">Patents</div>
+
+<!-- Patent -->
+<div class="pub-card patent-card">
+  <div class="pub-title">A Lane Change Decision-Making Method for Intelligent Vehicles in Foggy Days Based on Dynamic Game Theory</div>
+  <div class="pub-authors"><span class="me">Jie Wang</span> (First Author), et al.</div>
+
+  <div class="pub-meta">
+    <span class="pub-venue">Chinese Invention Patent</span>
+    <span class="pub-status status-review">Patent ID: 202510141836.1</span>
+  </div>
+
+  <div class="pub-description">
+    A decision-making framework for intelligent vehicles in foggy weather using dynamic game theory with CarSim & Simulink simulations. Passed preliminary examination.
+  </div>
+</div>
+
+</div>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="text-align: center; margin-top: 50px; color: #6a737d;">
+    <p>You can also find my articles on <a href="{{site.author.googlescholar}}" style="color: #0366d6;">my Google Scholar profile</a>.</p>
+  </div>
 {% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-

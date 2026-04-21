@@ -1,14 +1,275 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
+.project-card {
+  background: white;
+  border-radius: 4px;
+  padding: 35px;
+  margin: 30px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  border: 1px solid #e1e4e8;
+}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+.project-card:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #24292e;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.project-date {
+  color: #6a737d;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.project-meta {
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.project-tag {
+  display: inline-block;
+  background: #f6f8fa;
+  color: #24292e;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #e1e4e8;
+}
+
+.project-tag.funding {
+  background: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+.project-tag.award {
+  background: #fff3cd;
+  color: #856404;
+  border-color: #ffeaa7;
+}
+
+.project-description {
+  color: #586069;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 15px 0;
+}
+
+.project-highlights {
+  margin: 15px 0 0 0;
+}
+
+.project-highlights ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.project-highlights li {
+  color: #586069;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.project-highlights strong {
+  color: #24292e;
+}
+
+.section-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #24292e;
+  margin: 50px 0 30px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.section-header:first-child {
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-header {
+    flex-direction: column;
+  }
+
+  .project-date {
+    white-space: normal;
+  }
+
+  .project-card {
+    padding: 25px;
+  }
+}
+</style>
+
+<div class="projects-container">
+
+<div class="section-header">Research Projects</div>
+
+<!-- EviGuard -->
+<div class="project-card">
+  <div class="project-header">
+    <div>
+      <div class="project-title">EviGuard: Cross-Modal Safety Unlearning in Multimodal LLMs</div>
+      <div class="project-meta">
+        <span class="project-tag funding">Honors Cornerstone Design Program</span>
+        <span class="project-tag">Under Review - ACM MM 2026</span>
+      </div>
+    </div>
+    <div class="project-date">Jan 2026 – Apr 2026</div>
+  </div>
+
+  <div class="project-description">
+    Evidence-guided connector intervention for cross-modal safety unlearning in multimodal large language models.
+  </div>
+
+  <div class="project-highlights">
+    <ul>
+      <li>Identified that cross-modal risk in multimodal LLMs concentrates in a low-rank subspace at the visual-language connector, motivating targeted intervention rather than uniform suppression</li>
+      <li>Reduced over-refusal rate (SARR) from 30.3% to 22.3%; on OOD benchmark SIUO, achieved <strong>9.8% ASR</strong> and <strong>68.0% Safe & Effective rate</strong> vs. best baseline (81.2% / 8.0%)</li>
+      <li><strong>Contributions:</strong> Experimental framework design, algorithm implementation, ablation analysis, manuscript writing</li>
+    </ul>
+  </div>
+</div>
+
+<!-- BEACON -->
+<div class="project-card">
+  <div class="project-header">
+    <div>
+      <div class="project-title">BEACON: Budget-Efficient Discovery of Policy Violations in LLMs</div>
+      <div class="project-meta">
+        <span class="project-tag funding">Honors Keystone Design Program</span>
+        <span class="project-tag">Under Review - IJCAI 2026 (Phase 2)</span>
+      </div>
+    </div>
+    <div class="project-date">Nov 2025 – Jan 2026</div>
+  </div>
+
+  <div class="project-description">
+    Budget-efficient discovery of policy violations via cognitive-guided Monte Carlo Tree Search.
+  </div>
+
+  <div class="project-highlights">
+    <ul>
+      <li>Reframed LLM safety evaluation as budget-constrained failure discovery; formalized efficiency-oriented metrics (k-FDQ, NDA, CCR, DV) capturing discovery timing and harm category diversity beyond traditional ASR</li>
+      <li>Built Cognitive-Guided MCTS with defense persona profiling and diversity-aware selection; achieved <strong>85.5–100% ASR</strong> across 6 frontier LLMs, discovering failures <strong>3.7× faster</strong> than strongest baseline (k-FDQ 26 vs. 95)</li>
+      <li><strong>Contributions:</strong> Problem formulation, attack design, experimental analysis, manuscript preparation</li>
+    </ul>
+  </div>
+</div>
+
+<!-- VidTouch -->
+<div class="project-card">
+  <div class="project-header">
+    <div>
+      <div class="project-title">VidTouch: Vision-based Tactile Perception via Multimodal Learning</div>
+      <div class="project-meta">
+        <span class="project-tag funding">Chinese National College Students' Innovation Program</span>
+        <span class="project-tag">Under Review - ACM MM 2026</span>
+      </div>
+    </div>
+    <div class="project-date">Dec 2024 – June 2025</div>
+  </div>
+
+  <div class="project-description">
+    A multimodal benchmark dataset for dynamic visuo-tactile fabric recognition.
+  </div>
+
+  <div class="project-highlights">
+    <ul>
+      <li>Built VidTouch (145 fabric categories, 440 RGB images / 440 tactile videos), the <strong>first dynamic multimodal benchmark</strong> for fabric recognition; supports multi-label classification, cross-modal retrieval, and zero-shot generalization</li>
+      <li>Designed X3D + EfficientNet + MLP fusion pipeline achieving <strong>98.6%</strong> in-category accuracy; revealed zero-shot generalization bottleneck (41.3%), positioning VidTouch as an open challenge benchmark</li>
+      <li><strong>Contributions:</strong> Dataset construction, model training and optimization, and experimental validation</li>
+    </ul>
+  </div>
+</div>
+
+<!-- AttentiveCSI -->
+<div class="project-card">
+  <div class="project-header">
+    <div>
+      <div class="project-title">AttentiveCSI: WiFi-based Gesture Recognition with CNN-LSTM</div>
+      <div class="project-meta">
+        <span class="project-tag award">1st Place Poster Award (1/50)</span>
+        <span class="project-tag">North Carolina State University</span>
+      </div>
+    </div>
+    <div class="project-date">June 2025 – Aug 2025</div>
+  </div>
+
+  <div class="project-description">
+    WiFi-based Channel State Information gesture recognition using attention-enhanced CNN-LSTM network at NC State University.
+  </div>
+
+  <div class="project-highlights">
+    <ul>
+      <li>Developed AttentiveCSI system for <strong>non-invasive gesture recognition</strong> using WiFi CSI data, eliminating the need for wearable sensors or cameras</li>
+      <li>Implemented attention-enhanced CNN-LSTM architecture achieving high accuracy in recognizing complex hand gestures across different environments</li>
+      <li>Awarded <strong>First Place in Poster Symposium</strong> at U.S. GEARS Research Program (1/50 participants)</li>
+      <li><strong>Supervisor:</strong> Dr. Muhammad Shahzad, NC State University</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Autonomous Driving -->
+<div class="project-card">
+  <div class="project-header">
+    <div>
+      <div class="project-title">Autonomous Driving Decision-Making based on Game Theory</div>
+      <div class="project-meta">
+        <span class="project-tag">Invention Patent (202510141836.1)</span>
+        <span class="project-tag">CarSim & Simulink</span>
+      </div>
+    </div>
+    <div class="project-date">Mar 2024 – Feb 2025</div>
+  </div>
+
+  <div class="project-description">
+    Lane change decision-making method for intelligent vehicles in foggy weather using dynamic game theory.
+  </div>
+
+  <div class="project-highlights">
+    <ul>
+      <li>Designed a decision-making framework for intelligent vehicles operating in <strong>foggy weather conditions</strong>, utilizing dynamic game theory to model interactions between vehicles</li>
+      <li>Implemented and validated the system using <strong>CarSim & Simulink</strong> simulations, demonstrating safe and efficient lane-change decisions under reduced visibility scenarios</li>
+      <li>Result: Chinese <strong>Invention Patent ID: 202510141836.1</strong> (Passed Preliminary Examination)</li>
+      <li><strong>Advisor:</strong> Dr. Heng Deng, Beijing University of Technology</li>
+    </ul>
+  </div>
+</div>
+
+</div>

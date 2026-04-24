@@ -97,15 +97,15 @@ In the summer of 2025, I visited **North Carolina State University (NCSU)** as a
     <div class="news-date">📅 March 2026</div>
     <div class="news-content">
       <span class="news-tag">Paper</span>
-      Two papers submitted to <strong>ACM MM 2026</strong>: EviGuard (cross-modal safety unlearning) and VidTouch (multimodal benchmark dataset).
+      Two papers submitted to <strong>CCF-A conferences</strong>: EviGuard (cross-modal safety unlearning) and VidTouch (multimodal benchmark dataset).
     </div>
   </div>
 
   <div class="news-item">
-    <div class="news-date">📅 March 2026</div>
+    <div class="news-date">📅 January 2026</div>
     <div class="news-content">
       <span class="news-tag">Paper</span>
-      Our paper <strong>BEACON</strong> advanced to Phase 2 of <strong>IJCAI 2026</strong> review with all positive reviews!
+      Our paper <strong>BEACON</strong> on LLM safety evaluation is under review at a <strong>top-tier AI conference</strong>.
     </div>
   </div>
 

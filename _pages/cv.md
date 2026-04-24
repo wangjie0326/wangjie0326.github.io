@@ -118,19 +118,19 @@ redirect_from:
 <div class="cv-item">
 <h3>[1] BEACON: Budget-Efficient Discovery of Policy Violations in LLMs via Cognitive-Guided Monte Carlo Tree Search</h3>
 <div class="cv-meta"><strong>Jie Wang</strong>, et al.</div>
-<div class="cv-meta">IJCAI 2026, Under Review (Advanced to Phase 2 with all positive reviews) | January 2026</div>
+<div class="cv-meta">CCF-A AI Conference, Under Review | January 2026</div>
 </div>
 
 <div class="cv-item">
 <h3>[2] EviGuard: Evidence-Guided Connector Intervention for Cross-Modal Safety Unlearning in Multimodal LLMs</h3>
 <div class="cv-meta"><strong>Jie Wang</strong>, et al.</div>
-<div class="cv-meta">ACM MM 2026, Under Review | March 2026</div>
+<div class="cv-meta">CCF-A Multimedia Conference, Under Review | March 2026</div>
 </div>
 
 <div class="cv-item">
 <h3>[3] VidTouch: A Multimodal Benchmark Dataset for Dynamic Visuo-Tactile Fabric Recognition</h3>
 <div class="cv-meta"><strong>Jie Wang</strong>, et al.</div>
-<div class="cv-meta">ACM MM 2026 (Dataset Track), Under Review | March 2026</div>
+<div class="cv-meta">CCF-A Multimedia Conference (Dataset Track), Under Review | March 2026</div>
 </div>
 
 <div class="cv-item">

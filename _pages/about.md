@@ -329,7 +329,7 @@ title: "Jie Wang"
   <section id="news">
     <h2>News</h2>
     <ul class="news">
-      <li>[2026-08] <strong>EviGuard</strong> accepted!</li>
+      <li>[2026-08] Our paper <strong>EviGuard</strong> was accepted to <strong>ACM MM 2026</strong>.</li>
       <li>[2026-05] Paper <strong>BEACON: Budget-Efficient Discovery of Policy Violations in Large Language Models via Cognitive-Guided Monte Carlo Tree Search</strong> accepted to <strong>IJCAI 2026</strong>.</li>
       <li>[2026-03] Two papers on multimodal safety alignment and vision-tactile perception submitted to CCF-A conferences.</li>
       <li>[2026-01] Paper on efficient LLM safety evaluation is under review at a top-tier AI conference.</li>
@@ -350,7 +350,7 @@ title: "Jie Wang"
     <div class="pub">
       <span class="pub-title">Cross-Modal Safety Alignment for Multimodal Large Language Models</span><br>
       <span><strong>Jie Wang</strong>, et al.</span><br>
-      <span class="pub-meta">CCF-A Multimedia Conference · accepted</span>
+      <span class="pub-meta">ACM MM 2026</span>
     </div>
     <div class="pub">
       <span class="pub-title">A Multimodal Benchmark for Vision-Tactile Perception and Recognition</span><br>

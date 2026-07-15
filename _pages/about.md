@@ -226,6 +226,26 @@ title: "Jie Wang"
     color: var(--muted);
   }
 
+  .photo-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .photo-strip img {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.94;
+    filter: saturate(0.92) contrast(0.97);
+  }
+
+  .photo-strip .photo-poster {
+    object-position: 50% 38%;
+  }
+
   footer {
     border-top: 1px solid var(--border);
     margin-top: 34px;
@@ -294,6 +314,7 @@ title: "Jie Wang"
     <a href="#publications">Publications</a>
     <a href="#education">Education</a>
     <a href="#awards">Awards</a>
+    <a href="#photos">Photos</a>
   </nav>
 
   <section id="home">
@@ -387,7 +408,16 @@ title: "Jie Wang"
     </p>
   </section>
 
+  <section id="photos">
+    <h2>Photos</h2>
+    <div class="photo-strip">
+      <img src="/images/IMG_5696.jpeg" alt="Jie Wang at Golden Gate Bridge" loading="lazy">
+      <img class="photo-poster" src="/images/IMG_7335.jpeg" alt="Jie Wang presenting a research poster" loading="lazy">
+      <img src="/images/IMG_7866.jpeg" alt="Jie Wang at a tennis court" loading="lazy">
+    </div>
+  </section>
+
   <footer>
-    Last updated: April 2026.
+    Last updated: July 2026.
   </footer>
 </main>

@@ -171,6 +171,14 @@ title: "Jie Wang"
     color: #444;
   }
 
+  .awards-list {
+    margin: 8px 0 0 20px;
+  }
+
+  .awards-list li {
+    margin: 6px 0;
+  }
+
   h2 {
     font-size: 16px;
     font-weight: 600;
@@ -273,13 +281,43 @@ title: "Jie Wang"
     }
 
     nav {
-      flex-wrap: wrap;
-      gap: 12px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px 10px;
+      font-size: 11px;
     }
 
     nav a {
       width: auto;
       margin: 0;
+      white-space: nowrap;
+    }
+
+    .contact {
+      column-gap: 16px;
+      row-gap: 8px;
+    }
+
+    .contact-email {
+      white-space: normal;
+    }
+
+    .contact-links {
+      gap: 10px;
+    }
+
+    p,
+    li,
+    .pub-title {
+      overflow-wrap: break-word;
+    }
+
+    section {
+      margin: 32px 0 36px;
+    }
+
+    .photo-strip {
+      gap: 6px;
     }
   }
 </style>
@@ -393,9 +431,14 @@ title: "Jie Wang"
 
   <section id="awards">
     <h2>Awards</h2>
-    <div class="awards-highlight">
-      Best Poster Award (1st Place), U.S. GEARS Research Program @ NCSU (2025) · Fan-Gongxiu Honors Scholarship (2025) · Xiaomi Entrepreneur Scholarship (2025) · Study Excellence Scholarship (2024, 2025) · National 2nd Prize, China Robot Competition and Artificial Intelligence Contest (2025) · Outstanding Student Honor, BJUT (2024)
-    </div>
+    <ul class="awards-list">
+      <li>Best Poster Award (1st Place), U.S. GEARS Research Program @ NCSU, 2025.</li>
+      <li>Fan-Gongxiu Honors Scholarship, 2025.</li>
+      <li>Xiaomi Entrepreneur Scholarship, 2025.</li>
+      <li>Study Excellence Scholarship, 2024 and 2025.</li>
+      <li>National 2nd Prize, China Robot Competition and Artificial Intelligence Contest, 2025.</li>
+      <li>Outstanding Student Honor, BJUT, 2024.</li>
+    </ul>
   </section>
 
   <section id="skills">

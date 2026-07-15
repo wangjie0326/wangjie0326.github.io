@@ -329,7 +329,7 @@ title: "Jie Wang"
   <section id="news">
     <h2>News</h2>
     <ul class="news">
-      <li>[2026-08] Our paper <strong>EviGuard</strong> was accepted to <strong>ACM MM 2026</strong>.</li>
+      <li>[2026-07] Our paper <strong>EviGuard: Evidence-Guided Connector Intervention for Cross-Modal Safety Unlearning in Multimodal LLMs</strong> was accepted to <strong>ACM MM 2026</strong>.</li>
       <li>[2026-05] Paper <strong>BEACON: Budget-Efficient Discovery of Policy Violations in Large Language Models via Cognitive-Guided Monte Carlo Tree Search</strong> accepted to <strong>IJCAI 2026</strong>.</li>
       <li>[2026-03] Two papers on multimodal safety alignment and vision-tactile perception submitted to CCF-A conferences.</li>
       <li>[2026-01] Paper on efficient LLM safety evaluation is under review at a top-tier AI conference.</li>
@@ -344,12 +344,12 @@ title: "Jie Wang"
     <h2>Selected Publications</h2>
     <div class="pub">
       <span class="pub-title">BEACON: Budget-Efficient Discovery of Policy Violations in Large Language Models via Cognitive-Guided Monte Carlo Tree Search</span><br>
-      <span><strong>Jie Wang</strong>, et al.</span><br>
+      <span>Xinyi Huang, <strong>Jie Wang</strong>, Pengrui Xiang, Jinduo Liu (Corresponding author)</span><br>
       <span class="pub-meta">IJCAI 2026</span>
     </div>
     <div class="pub">
-      <span class="pub-title">Cross-Modal Safety Alignment for Multimodal Large Language Models</span><br>
-      <span><strong>Jie Wang</strong>, et al.</span><br>
+      <span class="pub-title">EviGuard: Evidence-Guided Connector Intervention for Cross-Modal Safety Unlearning in Multimodal LLMs</span><br>
+      <span>Xinyi Huang, Pengrui Xiang, <strong>Jie Wang</strong>, Jinduo Liu (Corresponding author)</span><br>
       <span class="pub-meta">ACM MM 2026</span>
     </div>
     <div class="pub">

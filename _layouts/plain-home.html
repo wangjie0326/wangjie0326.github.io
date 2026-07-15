@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
